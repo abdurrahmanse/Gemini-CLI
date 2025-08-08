@@ -1,0 +1,37 @@
+[
+  {
+    "id": "home",
+    "label": "Home",
+    "href": "#home"
+  },
+  {
+    "id": "about",
+    "label": "About",
+    "href": "#about"
+  },
+  {
+    "id": "expertise",
+    "label": "Expertise",
+    "href": "#expertise"
+  },
+  {
+    "id": "experience",
+    "label": "Experience",
+    "href": "#experience"
+  },
+  {
+    "id": "achievements",
+    "label": "Achievements",
+    "href": "#achievements"
+  },
+  {
+    "id": "vision",
+    "label": "Vision",
+    "href": "#vision"
+  },
+  {
+    "id": "contact",
+    "label": "Contact",
+    "href": "#contact"
+  }
+]

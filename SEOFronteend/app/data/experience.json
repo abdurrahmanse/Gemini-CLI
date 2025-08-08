@@ -1,0 +1,97 @@
+[
+  {
+    "company": "Servier Operations Bangladesh",
+    "position": "Chief Executive Officer",
+    "period": "2018 - Present",
+    "logo": "🏢",
+    "description": "Leading pharmaceutical operations across Bangladesh, driving strategic growth and operational excellence. Overseeing drug development, regulatory affairs, and market expansion initiatives.",
+    "achievements": [
+      "300% growth in market penetration",
+      "Launched 25+ innovative pharmaceutical products",
+      "Built regulatory compliance framework"
+    ],
+    "technologies": [
+      "Pharmaceutical Strategy",
+      "Regulatory Affairs",
+      "Market Development",
+      "Team Leadership"
+    ],
+    "gradient": "from-blue-500 to-purple-600"
+  },
+  {
+    "company": "Global Pharma Solutions",
+    "position": "Regional Director",
+    "period": "2014 - 2018",
+    "logo": "🌍",
+    "description": "Managed regional pharmaceutical operations across South Asia. Led cross-functional teams in drug development, clinical trials, and market access strategies.",
+    "achievements": [
+      "Established operations in 8 new markets",
+      "Led clinical trials for 15+ compounds",
+      "Achieved 95% regulatory approval rate"
+    ],
+    "technologies": [
+      "Clinical Operations",
+      "Market Access",
+      "Cross-functional Leadership",
+      "Strategic Planning"
+    ],
+    "gradient": "from-emerald-500 to-teal-600"
+  },
+  {
+    "company": "MedTech Innovations",
+    "position": "Senior Vice President",
+    "period": "2010 - 2014",
+    "logo": "💊",
+    "description": "Spearheaded innovation initiatives in pharmaceutical technology and digital health solutions. Built strategic partnerships with global healthcare organizations.",
+    "achievements": [
+      "Launched 3 breakthrough digital health platforms",
+      "Secured partnerships with 50+ healthcare providers",
+      "Generated $100M+ in new revenue streams"
+    ],
+    "technologies": [
+      "Digital Health",
+      "Innovation Management",
+      "Partnership Development",
+      "Technology Integration"
+    ],
+    "gradient": "from-orange-500 to-red-600"
+  },
+  {
+    "company": "Healthcare Dynamics",
+    "position": "Director of Operations",
+    "period": "2006 - 2010",
+    "logo": "⚕️",
+    "description": "Optimized healthcare delivery systems and pharmaceutical supply chains. Implemented quality management systems and drove operational efficiency improvements.",
+    "achievements": [
+      "Improved supply chain efficiency by 60%",
+      "Reduced medication errors by 85%",
+      "Implemented GMP standards across facilities"
+    ],
+    "technologies": [
+      "Supply Chain Management",
+      "Quality Systems",
+      "GMP Compliance",
+      "Process Optimization"
+    ],
+    "gradient": "from-green-500 to-emerald-600"
+  },
+  {
+    "company": "BioPharma Research Institute",
+    "position": "Research Manager",
+    "period": "2002 - 2006",
+    "logo": "🔬",
+    "description": "Led pharmaceutical research projects focusing on drug development and clinical trials. Managed multidisciplinary research teams and regulatory submissions.",
+    "achievements": [
+      "Led 20+ successful clinical trials",
+      "Published 15+ peer-reviewed research papers",
+      "Secured $50M+ in research funding"
+    ],
+    "technologies": [
+      "Clinical Research",
+      "Drug Development",
+      "Regulatory Submissions",
+      "Research Management"
+    ],
+    "gradient": "from-purple-500 to-indigo-600"
+  }
+]

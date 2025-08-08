@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Healthcare Accessibility",
+    "description": "Ensuring equitable access to high-quality pharmaceutical products and healthcare services across all communities in Bangladesh and beyond.",
+    "icon": "🏥",
+    "gradient": "from-blue-500 to-cyan-600",
+    "initiatives": [
+      "Rural healthcare expansion programs",
+      "Affordable medication initiatives",
+      "Community health partnerships",
+      "Telemedicine infrastructure development"
+    ]
+  },
+  {
+    "title": "Innovation Excellence",
+    "description": "Driving breakthrough innovations in pharmaceutical research, development, and delivery through cutting-edge technology and strategic partnerships.",
+    "icon": "🔬",
+    "gradient": "from-purple-500 to-indigo-600",
+    "initiatives": [
+      "AI-driven drug discovery platforms",
+      "Personalized medicine research",
+      "Digital health solutions",
+      "Collaborative research networks"
+    ]
+  },
+  {
+    "title": "Sustainable Growth",
+    "description": "Building environmentally responsible and economically sustainable pharmaceutical operations that create long-term value for all stakeholders.",
+    "icon": "🌱",
+    "gradient": "from-green-500 to-teal-600",
+    "initiatives": [
+      "Carbon-neutral manufacturing",
+      "Circular economy practices",
+      "Green supply chain optimization",
+      "Renewable energy adoption"
+    ]
+  },
+  {
+    "title": "Global Leadership",
+    "description": "Establishing Bangladesh as a regional hub for pharmaceutical excellence and positioning our organization as a global leader in emerging markets.",
+    "icon": "🌍",
+    "gradient": "from-orange-500 to-red-600",
+    "initiatives": [
+      "International market expansion",
+      "Global regulatory standards",
+      "Cross-border partnerships",
+      "Knowledge transfer programs"
+    ]
+  }
+]
