@@ -14,18 +14,25 @@ import { ThemeProvider } from '~/hooks/useTheme';
 export function CEOPortfolio() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen relative font-sans">
-        {/* Sophisticated background layers */}
-        <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900"></div>
-        <div className="fixed inset-0 bg-gradient-to-tr from-emerald-900/20 via-transparent to-blue-900/30"></div>
-        
-        {/* Medical themed mesh background */}
-        <div className="fixed inset-0 opacity-20">
-          <div className="absolute top-0 left-0 w-full h-full bg-mesh-pattern"></div>
+      <div className="min-h-screen relative font-sans transition-colors duration-500" 
+           style={{ backgroundColor: 'var(--bg-primary)' }}>
+        {/* Theme-aware background layers */}
+        <div className="fixed inset-0 transition-opacity duration-500">
+          <div className="absolute inset-0" style={{ 
+            background: 'linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 50%, var(--bg-primary) 100%)' 
+          }}></div>
+          <div className="absolute inset-0 opacity-30" style={{
+            background: 'radial-gradient(circle at 30% 20%, var(--accent-secondary), transparent 50%)'
+          }}></div>
+          <div className="absolute inset-0 opacity-30" style={{
+            background: 'radial-gradient(circle at 70% 80%, var(--accent-primary), transparent 50%)'
+          }}></div>
         </div>
         
-        {/* Subtle medical cross pattern */}
-        <div className="fixed inset-0 opacity-[0.03] bg-medical-pattern"></div>
+        {/* Subtle pattern overlay */}
+        <div className="fixed inset-0 opacity-[0.03]" style={{
+          backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.1\'%3E%3Ccircle cx=\'30\' cy=\'30\' r=\'1\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'
+        }}></div>
         
         <Navigation />
         

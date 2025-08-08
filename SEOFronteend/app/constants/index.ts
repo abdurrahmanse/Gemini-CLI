@@ -7,8 +7,12 @@ import expertiseData from '~/data/expertise.json';
 import experienceData from '~/data/experience.json';
 import achievementsData from '~/data/achievements.json';
 import visionData from '~/data/vision.json';
+import heroData from '~/data/hero.json';
 
 import type { PersonalInfo, SocialLinks, NavigationItem } from '~/types';
+
+// Hero Section Data
+export const HERO_DATA = heroData;
 
 // Personal Information
 export const PERSONAL_INFO: PersonalInfo = personalInfoData;
@@ -36,10 +40,11 @@ export const VISION_DATA = visionData;
 
 // Hero Section Taglines
 export const HERO_TAGLINES = [
-  'Pioneering Healthcare Innovation',
-  'Advancing Medical Excellence',
-  'Transforming Lives Through Leadership',
-  'Building Sustainable Healthcare'
+  'Leading Pharmaceutical Excellence',
+  'CEO Driving Healthcare Innovation',
+  'Transforming Healthcare Through Executive Vision',
+  'Strategic Leadership in Medical Advancement',
+  'Building Healthcare Legacy Across Bangladesh'
 ];
 
 // Professional Credentials

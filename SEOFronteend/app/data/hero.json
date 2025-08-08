@@ -1,0 +1,40 @@
+{
+  "name": "Dr. Tofazzal Hossain Bhuiyan",
+  "title": "Chief Executive Officer",
+  "subtitle": "Healthcare Visionary & Pharmaceutical Leader",
+  "company": "Servier Operations Bangladesh",
+  "tagline": "Transforming Healthcare Through Strategic Leadership & Innovation",
+  "description": "Leading pharmaceutical excellence across Bangladesh with 20+ years of executive experience. Driving market expansion, healthcare accessibility, and operational innovation while maintaining the highest standards of quality and regulatory compliance.",
+  "cta": {
+    "primary": "View Leadership Journey",
+    "secondary": "Download Executive Summary"
+  },
+  "stats": [
+    {
+      "value": "300%",
+      "label": "Market Growth Under Leadership",
+      "icon": "📈"
+    },
+    {
+      "value": "25+",
+      "label": "Pharmaceutical Products Launched",
+      "icon": "💊"
+    },
+    {
+      "value": "500+",
+      "label": "Team Members Led",
+      "icon": "👥"
+    },
+    {
+      "value": "15+",
+      "label": "Years as CEO",
+      "icon": "🏆"
+    }
+  ],
+  "highlights": [
+    "CEO of the Year Award 2023",
+    "Leading market expansion across South Asia",
+    "Pioneer in digital health transformation",
+    "Champion of healthcare accessibility"
+  ]
+}

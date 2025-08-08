@@ -1,6 +1,6 @@
 import React from "react";
 import { useIntersectionObserver, useStaggeredAnimation } from "../../hooks";
-import { SectionHeader, Card } from "../ui";
+import { SectionWrapper, SectionHeader, Card } from "../ui";
 import { EXPERTISE_AREAS } from "../../constants";
 
 export function ExpertiseSection() {
@@ -14,15 +14,12 @@ export function ExpertiseSection() {
   }, [isVisible, startAnimation]);
 
   return (
-    <section ref={ref} id="expertise" className="py-32 px-6 sm:px-8 relative">
-      {/* Background Effects */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-emerald-900/5 to-black/5"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
-      
-      <div className="max-w-7xl mx-auto relative z-10">
+    <SectionWrapper id="expertise" background="gradient">
+      <div ref={ref as React.RefObject<HTMLDivElement>}>
         <SectionHeader
-          title="Core"
-          subtitle="Expertise"
+          title="Core Expertise"
+          subtitle="Professional Excellence"
+          description="Strategic leadership across pharmaceutical innovation and business transformation"
         />
 
         <div className={`grid md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-1000 ${
@@ -40,23 +37,36 @@ export function ExpertiseSection() {
             >
               <Card className="group p-8 h-full hover:scale-105 transition-all duration-500 relative overflow-hidden">
                 {/* Background Gradient */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${area.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500"
+                     style={{
+                       background: `linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))`
+                     }}></div>
                 
                 {/* Floating Icon */}
                 <div className="relative mb-6">
-                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${area.gradient} p-4 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300`}>
+                  <div className="w-16 h-16 rounded-2xl p-4 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300"
+                       style={{
+                         background: `linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))`
+                       }}>
                     {area.icon}
                   </div>
-                  <div className={`absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br ${area.gradient} rounded-full opacity-20 group-hover:scale-150 transition-transform duration-500`}></div>
+                  <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full opacity-20 group-hover:scale-150 transition-transform duration-500"
+                       style={{
+                         background: `linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))`
+                       }}></div>
                 </div>
 
                 {/* Content */}
                 <div className="relative z-10">
-                  <h3 className="text-2xl font-black text-white mb-6 group-hover:text-blue-300 transition-colors">
+                  <h3 className="text-2xl font-black mb-6 transition-colors duration-300"
+                      style={{ 
+                        color: 'var(--text-primary)',
+                      }}>
                     {area.title}
                   </h3>
                   
-                  <p className="text-gray-300 text-lg leading-relaxed mb-8 group-hover:text-gray-200 transition-colors font-semibold">
+                  <p className="text-lg leading-relaxed mb-8 transition-colors duration-300 font-semibold"
+                     style={{ color: 'var(--text-secondary)' }}>
                     {area.description}
                   </p>
                   
@@ -91,6 +101,6 @@ export function ExpertiseSection() {
           </p>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

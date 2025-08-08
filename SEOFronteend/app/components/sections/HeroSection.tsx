@@ -44,9 +44,15 @@ export function HeroSection() {
     <SectionWrapper id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Premium Background */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950/90 to-emerald-950/80"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(16,185,129,0.15),transparent_50%)]"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.15),transparent_50%)]"></div>
+        <div className="absolute inset-0 transition-all duration-500" style={{
+          background: 'linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%)'
+        }}></div>
+        <div className="absolute inset-0 opacity-20" style={{
+          background: 'radial-gradient(circle at 30% 20%, var(--accent-secondary), transparent 50%)'
+        }}></div>
+        <div className="absolute inset-0 opacity-20" style={{
+          background: 'radial-gradient(circle at 70% 80%, var(--accent-primary), transparent 50%)'
+        }}></div>
         <div 
           className="absolute inset-0 opacity-40" 
           style={{
@@ -57,14 +63,14 @@ export function HeroSection() {
 
       {/* Floating Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-20 w-2 h-2 bg-emerald-400/60 rounded-full animate-float"></div>
-        <div className="absolute top-40 right-32 w-1 h-1 bg-blue-400/60 rounded-full animate-float delay-1000"></div>
-        <div className="absolute bottom-32 left-16 w-3 h-3 bg-purple-400/40 rounded-full animate-float delay-2000"></div>
-        <div className="absolute top-1/3 right-20 w-1.5 h-1.5 bg-cyan-400/50 rounded-full animate-float delay-3000"></div>
-        <div className="absolute bottom-20 right-40 w-2 h-2 bg-emerald-300/40 rounded-full animate-float delay-4000"></div>
+        <div className="absolute top-20 left-20 w-2 h-2 rounded-full animate-float" style={{ backgroundColor: 'var(--accent-secondary)', opacity: 0.6 }}></div>
+        <div className="absolute top-40 right-32 w-1 h-1 rounded-full animate-float delay-1000" style={{ backgroundColor: 'var(--accent-primary)', opacity: 0.6 }}></div>
+        <div className="absolute bottom-32 left-16 w-3 h-3 rounded-full animate-float delay-2000" style={{ backgroundColor: 'var(--accent-secondary)', opacity: 0.4 }}></div>
+        <div className="absolute top-1/3 right-20 w-1.5 h-1.5 rounded-full animate-float delay-3000" style={{ backgroundColor: 'var(--accent-primary)', opacity: 0.5 }}></div>
+        <div className="absolute bottom-20 right-40 w-2 h-2 rounded-full animate-float delay-4000" style={{ backgroundColor: 'var(--accent-secondary)', opacity: 0.4 }}></div>
       </div>
 
-      <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8">
+      <div ref={ref as React.RefObject<HTMLDivElement>} className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8">{/* Text content */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left Content */}
@@ -73,16 +79,23 @@ export function HeroSection() {
           }`}>
             
             {/* Professional Badge */}
-            <div className="inline-flex items-center space-x-3 backdrop-blur-xl bg-gradient-to-r from-emerald-500/20 to-blue-500/20 rounded-full px-6 py-3 border border-emerald-400/30 mb-8">
-              <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
-              <span className="text-emerald-300 font-medium text-sm tracking-wide">
+            <div className="inline-flex items-center space-x-3 backdrop-blur-xl rounded-full px-6 py-3 border mb-8 transition-all duration-300" 
+                 style={{ 
+                   backgroundColor: 'var(--glass-bg)', 
+                   borderColor: 'var(--glass-border)',
+                   background: 'linear-gradient(90deg, var(--accent-secondary), var(--accent-primary))',
+                   backgroundClip: 'padding-box'
+                 }}>
+              <div className="w-3 h-3 rounded-full animate-pulse" style={{ backgroundColor: 'var(--accent-secondary)' }}></div>
+              <span className="font-medium text-sm tracking-wide" style={{ color: 'var(--text-primary)' }}>
                 PHARMACEUTICAL LEADERSHIP EXCELLENCE
               </span>
             </div>
 
             {/* Name & Title */}
             <div className="mb-8">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 leading-tight transition-colors duration-300" 
+                  style={{ color: 'var(--text-primary)' }}>
                 <span className="block">Dr. {PERSONAL_INFO.firstName}</span>
                 <span className="block bg-gradient-to-r from-emerald-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
                   {PERSONAL_INFO.lastName}
@@ -90,10 +103,12 @@ export function HeroSection() {
               </h1>
               
               <div className="space-y-2">
-                <p className="text-2xl sm:text-3xl font-semibold text-emerald-400 tracking-wide">
+                <p className="text-2xl sm:text-3xl font-semibold tracking-wide transition-colors duration-300" 
+                   style={{ color: 'var(--accent-secondary)' }}>
                   {PERSONAL_INFO.title}
                 </p>
-                <p className="text-xl text-white/80 font-medium">
+                <p className="text-xl font-medium transition-colors duration-300" 
+                   style={{ color: 'var(--text-secondary)' }}>
                   {PERSONAL_INFO.company}
                 </p>
               </div>
@@ -101,9 +116,11 @@ export function HeroSection() {
 
             {/* Dynamic Tagline */}
             <div className="mb-8 h-16 flex items-center">
-              <p className="text-lg sm:text-xl text-white/70 font-medium">
-                <span className="text-emerald-400">{typedText}</span>
-                <span className="w-0.5 h-6 bg-emerald-400 ml-1 animate-pulse inline-block"></span>
+              <p className="text-lg sm:text-xl font-medium transition-colors duration-300" 
+                 style={{ color: 'var(--text-secondary)' }}>
+                <span style={{ color: 'var(--accent-secondary)' }}>{typedText}</span>
+                <span className="w-0.5 h-6 ml-1 animate-pulse inline-block" 
+                      style={{ backgroundColor: 'var(--accent-secondary)' }}></span>
               </p>
             </div>
 
@@ -113,7 +130,12 @@ export function HeroSection() {
                 {["Healthcare Innovation", "Digital Transformation", "Pharmaceutical Strategy", "Global Leadership"].map((expertise, index) => (
                   <span 
                     key={index} 
-                    className="inline-flex items-center px-4 py-2 rounded-xl backdrop-blur-xl bg-white/[0.08] border border-white/[0.12] text-white/80 text-sm font-medium hover:bg-white/[0.15] transition-all duration-300"
+                    className="inline-flex items-center px-4 py-2 rounded-xl backdrop-blur-xl border text-sm font-medium hover:scale-105 transition-all duration-300"
+                    style={{
+                      backgroundColor: 'var(--glass-bg)',
+                      borderColor: 'var(--glass-border)',
+                      color: 'var(--text-secondary)'
+                    }}
                   >
                     {expertise}
                   </span>

@@ -1,0 +1,216 @@
+/* ===================================
+   HERO SECTION STYLES
+   ===================================
+   Styles specific to the hero/landing section
+*/
+
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--gradient-from), var(--gradient-to));
+  z-index: -2;
+}
+
+.hero-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+  z-index: -1;
+}
+
+.hero-content {
+  max-width: 800px;
+  text-align: center;
+  z-index: 10;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Floating particles in hero */
+.hero-particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: particle-float 8s ease-in-out infinite;
+}
+
+.hero-particle:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.hero-particle:nth-child(2) {
+  top: 60%;
+  left: 85%;
+  animation-delay: 2s;
+}
+
+.hero-particle:nth-child(3) {
+  top: 80%;
+  left: 20%;
+  animation-delay: 4s;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Professional Image Styles */
+.professional-image-container {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.professional-image-container:hover {
+  transform: translateY(-4px);
+}
+
+.professional-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.5s ease;
+  filter: brightness(1.1) contrast(1.05) saturate(1.1);
+}
+
+.professional-image-container:hover .professional-image {
+  transform: scale(1.05);
+  filter: brightness(1.15) contrast(1.1) saturate(1.15);
+}
+
+.professional-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(15, 23, 42, 0.6) 0%,
+    transparent 40%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.professional-badge {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.professional-badge:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Glow effect for image */
+.image-glow {
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.4),
+    rgba(59, 130, 246, 0.4),
+    rgba(6, 182, 212, 0.4)
+  );
+  border-radius: 24px;
+  filter: blur(8px);
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  z-index: -1;
+}
+
+.professional-image-container:hover .image-glow {
+  opacity: 0.5;
+}
+
+/* Responsive image adjustments */
+@media (max-width: 1024px) {
+  .professional-image-container {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .professional-image-container {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 2rem;
+  }
+  
+  .professional-badge {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .professional-image-container {
+    width: 200px;
+    height: 200px;
+  }
+}

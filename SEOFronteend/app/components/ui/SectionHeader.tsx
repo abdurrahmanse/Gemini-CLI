@@ -31,24 +31,33 @@ export function SectionHeader({
   };
 
   return (
-    <div className={cn("text-center mb-24", className)}>
+    <div className={cn('text-center mb-16', className)}>
       {subtitle && (
-        <p className="text-emerald-400 font-black text-xl mb-6 tracking-wide">
-          {subtitle}
-        </p>
+        <div className="inline-flex items-center space-x-2 backdrop-blur-xl rounded-full px-6 py-3 border mb-6 transition-all duration-300"
+             style={{
+               backgroundColor: 'var(--glass-bg)',
+               borderColor: 'var(--glass-border)',
+               color: 'var(--accent-secondary)'
+             }}>
+          <div className="w-2 h-2 rounded-full animate-pulse" 
+               style={{ backgroundColor: 'var(--accent-secondary)' }}></div>
+          <span className="text-sm font-semibold tracking-wider uppercase">
+            {subtitle}
+          </span>
+        </div>
       )}
       
-      <h2 className="text-6xl sm:text-7xl lg:text-8xl font-black text-white mb-8 font-display">
+      <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight transition-colors duration-300"
+          style={{ color: 'var(--text-primary)' }}>
         {renderTitle()}
       </h2>
       
       {description && (
-        <p className="text-2xl font-bold text-white/70 max-w-4xl mx-auto">
+        <p className="text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed font-medium transition-colors duration-300"
+           style={{ color: 'var(--text-secondary)' }}>
           {description}
         </p>
       )}
-      
-      <div className="w-32 h-2 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto rounded-full mt-8"></div>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 {
   "firstName": "Tofazzal",
-  "lastName": "Hossain",
-  "fullName": "Dr. Tofazzal Hossain",
-  "title": "Chief Executive Officer",
+  "lastName": "Hossain Bhuiyan",
+  "fullName": "Dr. Tofazzal Hossain Bhuiyan",
+  "title": "Chief Executive Officer & Healthcare Visionary",
   "company": "Servier Operations Bangladesh",
-  "email": "dr.hossain@servier.com",
+  "email": "dr.bhuiyan@servier.com",
   "phone": "+880-1-234-567890",
-  "location": "Dhaka, Bangladesh"
+  "location": "Dhaka, Bangladesh",
+  "bio": "Transformational pharmaceutical executive with 20+ years of leadership experience in advancing healthcare access and pharmaceutical innovation across South Asia. Dedicated to improving patient outcomes through strategic market development and evidence-based medicine."
 }

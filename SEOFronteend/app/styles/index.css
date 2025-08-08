@@ -1,0 +1,148 @@
+/* ===================================
+   CEO PORTFOLIO - MAIN STYLESHEET
+   ===================================
+   
+   This is the main CSS entry point that imports all
+   organized stylesheets for the CEO Portfolio site.
+   
+   ARCHITECTURE:
+   
+   📁 base/           - Foundation styles
+   ├── themes.css     - Theme system & CSS variables
+   ├── typography.css - Font definitions & text styles
+   └── global.css     - Base HTML/body & layout
+   
+   📁 effects/        - Visual effects & patterns
+   ├── glass-morphism.css - Glass effects & transparency
+   ├── animations.css     - Keyframes & motion
+   └── backgrounds.css    - Gradients & patterns
+   
+   📁 components/     - Reusable UI components
+   ├── buttons.css    - Button variants & states
+   ├── cards.css      - Card components & layouts
+   └── forms.css      - Input fields & form elements
+   
+   📁 sections/       - Page section specific styles
+   ├── hero.css       - Landing/hero section
+   ├── about.css      - About section
+   ├── experience.css - Experience timeline
+   └── contact.css    - Contact form & info
+   
+   HOW TO USE:
+   - Import this file in your app.css
+   - Each file is self-contained and documented
+   - Modify individual files for specific changes
+   - CSS custom properties make theming easy
+*/
+
+@import "tailwindcss";
+
+/* ===================================
+   BASE FOUNDATION STYLES
+   =================================== */
+@import "./base/themes.css";
+@import "./base/typography.css";
+@import "./base/global.css";
+
+/* ===================================
+   VISUAL EFFECTS & PATTERNS
+   =================================== */
+@import "./effects/glass-morphism.css";
+@import "./effects/animations.css";
+@import "./effects/backgrounds.css";
+
+/* ===================================
+   REUSABLE UI COMPONENTS
+   =================================== */
+@import "./components/buttons.css";
+@import "./components/cards.css";
+@import "./components/forms.css";
+@import "./components/navigation.css";
+@import "./components/footer.css";
+
+/* ===================================
+   SECTION-SPECIFIC STYLES
+   =================================== */
+@import "./sections/hero.css";
+@import "./sections/about.css";
+@import "./sections/experience.css";
+@import "./sections/expertise.css";
+@import "./sections/achievements.css";
+@import "./sections/contact.css";
+
+/* ===================================
+   UTILITY CLASSES
+   =================================== */
+
+/* Quick utility for section spacing */
+.section-padding {
+  padding: 120px 0;
+}
+
+.section-padding-sm {
+  padding: 80px 0;
+}
+
+/* Container max-width */
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Text utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+  
+  .section-padding-sm {
+    padding: 60px 0;
+  }
+  
+  .container-custom {
+    padding: 0 16px;
+  }
+}
+
+/* ===================================
+   DEVELOPER NOTES
+   ===================================
+   
+   🎨 THEME CUSTOMIZATION:
+   - Edit /base/themes.css to modify color schemes
+   - CSS custom properties make theme switching easy
+   - Three themes: default, dark, light
+   
+   ✨ EFFECTS CUSTOMIZATION:
+   - Glass morphism in /effects/glass-morphism.css
+   - Animations in /effects/animations.css
+   - Background patterns in /effects/backgrounds.css
+   
+   🧩 COMPONENT CUSTOMIZATION:
+   - Button styles in /components/buttons.css
+   - Card layouts in /components/cards.css
+   - Form elements in /components/forms.css
+   
+   📄 SECTION CUSTOMIZATION:
+   - Hero section in /sections/hero.css
+   - About section in /sections/about.css
+   - Experience timeline in /sections/experience.css
+   - Contact section in /sections/contact.css
+   
+   🔧 ADDING NEW SECTIONS:
+   1. Create new CSS file in /sections/
+   2. Add @import to this index.css
+   3. Use CSS custom properties for theming
+   4. Follow the naming convention
+   
+   =================================== */

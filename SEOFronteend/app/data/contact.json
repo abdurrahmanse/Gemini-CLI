@@ -1,0 +1,146 @@
+{
+  "header": {
+    "title": "Let's Connect",
+    "subtitle": "Ready to advance healthcare innovation together? Let's discuss strategic partnerships, market development opportunities, or how we can improve patient outcomes in your region.",
+    "callToAction": "I'm always interested in connecting with healthcare leaders, pharmaceutical innovators, and stakeholders committed to transforming patient care."
+  },
+  "contactMethods": [
+    {
+      "id": "email",
+      "title": "Professional Email",
+      "detail": "dr.bhuiyan@servier.com",
+      "description": "Preferred for strategic discussions and partnerships",
+      "icon": "📧",
+      "color": "from-blue-500 to-blue-600",
+      "availability": "Response within 24 hours during business days"
+    },
+    {
+      "id": "phone",
+      "title": "Direct Line",
+      "detail": "+880-1-234-567890",
+      "description": "Available for urgent healthcare matters",
+      "icon": "📞",
+      "color": "from-green-500 to-green-600",
+      "availability": "Sunday-Thursday, 9 AM - 6 PM (GMT+6)"
+    },
+    {
+      "id": "location",
+      "title": "Regional Office",
+      "detail": "Dhaka, Bangladesh",
+      "description": "Servier Operations Bangladesh Headquarters",
+      "icon": "📍",
+      "color": "from-purple-500 to-purple-600",
+      "availability": "In-person meetings by appointment"
+    },
+    {
+      "id": "calendar",
+      "title": "Executive Calendar",
+      "detail": "Schedule Consultation",
+      "description": "Book strategic consultation sessions",
+      "icon": "📅",
+      "color": "from-orange-500 to-red-500",
+      "availability": "30-60 minute sessions available"
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "LinkedIn",
+      "icon": "💼",
+      "href": "#linkedin",
+      "color": "from-blue-600 to-blue-700",
+      "description": "Professional network & industry insights"
+    },
+    {
+      "name": "Twitter",
+      "icon": "𝕏",
+      "href": "#twitter",
+      "color": "from-sky-400 to-sky-600",
+      "description": "Healthcare innovation updates"
+    },
+    {
+      "name": "Company",
+      "icon": "🌐",
+      "href": "#company",
+      "color": "from-emerald-500 to-emerald-600",
+      "description": "Servier Operations Bangladesh"
+    },
+    {
+      "name": "Research",
+      "icon": "🔬",
+      "href": "#research",
+      "color": "from-purple-500 to-purple-600",
+      "description": "Latest pharmaceutical research"
+    }
+  ],
+  "formFields": {
+    "subjects": [
+      {
+        "value": "strategic-partnership",
+        "label": "Strategic Partnership Opportunity"
+      },
+      {
+        "value": "market-development",
+        "label": "Market Development Discussion"
+      },
+      {
+        "value": "pharmaceutical-innovation",
+        "label": "Pharmaceutical Innovation"
+      },
+      {
+        "value": "healthcare-access",
+        "label": "Healthcare Access Initiative"
+      },
+      {
+        "value": "speaking-engagement",
+        "label": "Speaking Engagement"
+      },
+      {
+        "value": "regulatory-affairs",
+        "label": "Regulatory Affairs"
+      },
+      {
+        "value": "research-collaboration",
+        "label": "Research Collaboration"
+      },
+      {
+        "value": "other",
+        "label": "Other Healthcare Matter"
+      }
+    ],
+    "placeholders": {
+      "firstName": "Tofazzal",
+      "lastName": "Hossain",
+      "email": "your.email@company.com",
+      "company": "Your Organization",
+      "phone": "+880-1-xxx-xxxxx",
+      "message": "Please describe your healthcare initiative, partnership opportunity, or how we can collaborate to improve patient outcomes..."
+    }
+  },
+  "responseInfo": {
+    "standardResponse": "I typically respond within 24 hours during business days (Sunday-Thursday, GMT+6).",
+    "urgentMatters": "For urgent healthcare matters, please call directly or mark your email as 'URGENT - Healthcare Matter'.",
+    "partnerships": "Partnership inquiries will be reviewed by our strategic development team and responded to within 48 hours."
+  },
+  "expertise": [
+    {
+      "area": "Market Development",
+      "description": "Expanding pharmaceutical access across South Asian markets",
+      "icon": "📈"
+    },
+    {
+      "area": "Regulatory Strategy",
+      "description": "Navigating healthcare regulations for optimal patient outcomes",
+      "icon": "⚖️"
+    },
+    {
+      "area": "Innovation Leadership",
+      "description": "Driving pharmaceutical innovation in emerging markets",
+      "icon": "💡"
+    },
+    {
+      "area": "Strategic Partnerships",
+      "description": "Building collaborations to advance healthcare access",
+      "icon": "🤝"
+    }
+  ]
+}

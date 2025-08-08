@@ -1,0 +1,159 @@
+{
+  "profile": {
+    "image": "/images/dr-bhuiyan-profile.jpg",
+    "yearsOfExperience": 20,
+    "currentRole": "Chief Executive Officer",
+    "industry": "Pharmaceutical & Healthcare",
+    "specialization": "Healthcare Innovation & Market Development"
+  },
+  "introduction": {
+    "headline": "Transforming Healthcare Through Visionary Leadership",
+    "summary": "Dr. Tofazzal Hossain Bhuiyan is a distinguished pharmaceutical executive with over two decades of transformational leadership in advancing healthcare access and pharmaceutical innovation across South Asia. As CEO of Servier Operations Bangladesh, he has pioneered strategic initiatives that have revolutionized patient care and market development in the region.",
+    "mission": "Dedicated to improving patient outcomes through strategic market development, evidence-based medicine, and sustainable healthcare solutions that bridge the gap between innovation and accessibility."
+  },
+  "keyHighlights": [
+    {
+      "title": "Healthcare Innovation Pioneer",
+      "description": "Leading breakthrough initiatives in pharmaceutical market development and patient-centered care across Bangladesh and South Asia",
+      "icon": "🏥",
+      "color": "from-blue-500 to-cyan-500"
+    },
+    {
+      "title": "Strategic Market Developer",
+      "description": "Successfully expanded pharmaceutical operations and healthcare access, directly impacting millions of patients",
+      "icon": "📈",
+      "color": "from-green-500 to-emerald-500"
+    },
+    {
+      "title": "Evidence-Based Medicine Advocate",
+      "description": "Champion of research-driven pharmaceutical practices and clinical excellence in emerging markets",
+      "icon": "🔬",
+      "color": "from-purple-500 to-indigo-500"
+    },
+    {
+      "title": "Regional Healthcare Leader",
+      "description": "Recognized authority in South Asian pharmaceutical markets with extensive regional network and expertise",
+      "icon": "🌏",
+      "color": "from-orange-500 to-red-500"
+    }
+  ],
+  "leadershipPhilosophy": {
+    "quote": "True healthcare leadership means creating sustainable systems that not only deliver exceptional patient outcomes today, but also build the foundation for healthier communities tomorrow.",
+    "principles": [
+      {
+        "title": "Patient-First Approach",
+        "description": "Every decision is evaluated through the lens of patient impact and improved health outcomes",
+        "icon": "❤️"
+      },
+      {
+        "title": "Innovation with Purpose",
+        "description": "Driving pharmaceutical innovation that addresses real-world healthcare challenges in emerging markets",
+        "icon": "💡"
+      },
+      {
+        "title": "Sustainable Development",
+        "description": "Building healthcare infrastructure and market systems that create long-term value for all stakeholders",
+        "icon": "🌱"
+      },
+      {
+        "title": "Collaborative Excellence",
+        "description": "Fostering partnerships across healthcare ecosystem to amplify positive impact on patient care",
+        "icon": "🤝"
+      }
+    ]
+  },
+  "coreCompetencies": [
+    {
+      "category": "Executive Leadership",
+      "skills": [
+        { "name": "Strategic Vision & Planning", "level": 98, "color": "from-blue-500 to-blue-600" },
+        { "name": "Organizational Transformation", "level": 95, "color": "from-purple-500 to-purple-600" },
+        { "name": "Cross-Cultural Leadership", "level": 92, "color": "from-green-500 to-green-600" }
+      ]
+    },
+    {
+      "category": "Healthcare Expertise",
+      "skills": [
+        { "name": "Pharmaceutical Operations", "level": 97, "color": "from-red-500 to-red-600" },
+        { "name": "Market Access & Development", "level": 94, "color": "from-yellow-500 to-yellow-600" },
+        { "name": "Regulatory Affairs", "level": 89, "color": "from-indigo-500 to-indigo-600" }
+      ]
+    },
+    {
+      "category": "Business Acumen",
+      "skills": [
+        { "name": "Financial Management", "level": 91, "color": "from-pink-500 to-pink-600" },
+        { "name": "Market Strategy", "level": 96, "color": "from-cyan-500 to-cyan-600" },
+        { "name": "Stakeholder Relations", "level": 93, "color": "from-emerald-500 to-emerald-600" }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "metric": "20+",
+      "label": "Years Leadership Experience",
+      "description": "Two decades of pharmaceutical executive experience"
+    },
+    {
+      "metric": "5M+",
+      "label": "Patients Served",
+      "description": "Direct impact on patient care through market initiatives"
+    },
+    {
+      "metric": "50+",
+      "label": "Healthcare Partnerships",
+      "description": "Strategic collaborations across South Asian markets"
+    },
+    {
+      "metric": "15+",
+      "label": "Market Launches",
+      "description": "Successful pharmaceutical product introductions"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Doctor of Medicine (MD)",
+      "institution": "Leading Medical University",
+      "specialization": "Healthcare Management",
+      "year": "2004"
+    },
+    {
+      "degree": "Master of Business Administration",
+      "institution": "International Business School",
+      "specialization": "Healthcare Strategy",
+      "year": "2008"
+    },
+    {
+      "degree": "Executive Certificate",
+      "institution": "Harvard Business School",
+      "specialization": "Global Healthcare Leadership",
+      "year": "2015"
+    }
+  ],
+  "personalValues": [
+    {
+      "value": "Integrity in Healthcare",
+      "description": "Maintaining the highest ethical standards in all pharmaceutical and healthcare initiatives",
+      "icon": "⚖️",
+      "color": "bg-blue-500"
+    },
+    {
+      "value": "Patient-Centered Innovation",
+      "description": "Ensuring all innovations directly translate to improved patient outcomes and quality of life",
+      "icon": "🎯",
+      "color": "bg-green-500"
+    },
+    {
+      "value": "Collaborative Leadership",
+      "description": "Building bridges across healthcare stakeholders to create sustainable, impactful solutions",
+      "icon": "🤝",
+      "color": "bg-purple-500"
+    },
+    {
+      "value": "Continuous Learning",
+      "description": "Staying at the forefront of healthcare innovation and pharmaceutical best practices",
+      "icon": "📚",
+      "color": "bg-orange-500"
+    }
+  ]
+}
