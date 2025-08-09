@@ -1,0 +1,60 @@
+/* ===================================
+   GLOBAL LAYOUT & BASE STYLES
+   ===================================
+   Base HTML/body styles, scrollbar, and global layout utilities
+   All elements use Rajdhani font family.
+*/
+
+html,
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Rajdhani", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.025em;
+  scroll-behavior: smooth;
+  font-feature-settings: "cv03", "cv04", "cv11";
+  transition: background-color 0.5s ease, color 0.5s ease;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+/* Ensure all elements inherit Rajdhani */
+* {
+  font-family: inherit;
+}
+
+/* Enhanced scrollbar for macOS feel */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+  background-clip: content-box;
+}
+
+/* Custom focus styles */
+.focus-ring {
+  transition: all 0.2s ease;
+}
+
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}

@@ -1,0 +1,165 @@
+{
+  "profile": {
+    "image": "/images/tofazzal-profile.jpg",
+    "yearsOfExperience": 23,
+    "currentRole": "Country Manager",
+    "industry": "Pharmaceutical",
+    "specialization": "Multinational Organization Development"
+  },
+  "introduction": {
+    "headline": "Developing Multinational Organizations Through Excellence",
+    "summary": "Tofazzal Hossain Bhuiyan is an experienced executive with a demonstrated history of developing a multinational organization from its launch in Bangladesh. With 23+ years at Servier, he brings expertise in comprehensive company management backed by an MBA, combining domestic and global exposure with passion for change and excellence.",
+    "mission": "With a vision of tomorrow, thriving to become a good leader and to make positive impact in the lives of others."
+  },
+  "keyHighlights": [
+    {
+      "title": "Multinational Organization Developer",
+      "description": "Successfully developed Servier's multinational operations in Bangladesh from launch to established market presence",
+      "icon": "�",
+      "color": "from-blue-500 to-cyan-500"
+    },
+    {
+      "title": "Comprehensive Management Expert",
+      "description": "Skilled in business planning, operations, financial planning, decision making, HR management, and legal contracts",
+      "icon": "�",
+      "color": "from-green-500 to-emerald-500"
+    },
+    {
+      "title": "Progressive Leadership",
+      "description": "23+ years of progressive growth from Personnel Executive to Country Manager at Servier",
+      "icon": "�",
+      "color": "from-purple-500 to-indigo-500"
+    },
+    {
+      "title": "Academic Excellence",
+      "description": "Strong academic foundation with MBA in Human Resources & General Management from University of Dhaka",
+      "icon": "�",
+      "color": "from-orange-500 to-red-500"
+    }
+  ],
+  "leadershipPhilosophy": {
+    "quote": "A unique mix of domestic and global exposure and expertise, passionate about change and driven for excellence, with a vision of tomorrow to make positive impact in the lives of others.",
+    "principles": [
+      {
+        "title": "Excellence-Driven Approach",
+        "description": "Committed to excellence in every aspect of business operations and team leadership",
+        "icon": "⭐"
+      },
+      {
+        "title": "Change Leadership",
+        "description": "Passionate about driving positive change and organizational transformation",
+        "icon": "�"
+      },
+      {
+        "title": "People Impact",
+        "description": "Focused on making positive impact in the lives of others through leadership",
+        "icon": "👥"
+      },
+      {
+        "title": "Vision-Forward Thinking",
+        "description": "Leading with tomorrow's vision while executing today's opportunities",
+        "icon": "🔮"
+      }
+    ]
+  },
+  "coreCompetencies": [
+    {
+      "category": "Executive Leadership",
+      "skills": [
+        { "name": "Business Planning", "level": 98, "color": "from-blue-500 to-blue-600" },
+        { "name": "Operations Leadership", "level": 96, "color": "from-purple-500 to-purple-600" },
+        { "name": "Decision Making", "level": 95, "color": "from-green-500 to-green-600" }
+      ]
+    },
+    {
+      "category": "Management Expertise",
+      "skills": [
+        { "name": "Human Resources Management", "level": 97, "color": "from-red-500 to-red-600" },
+        { "name": "Financial Planning", "level": 94, "color": "from-yellow-500 to-yellow-600" },
+        { "name": "Legal Contract Operations", "level": 92, "color": "from-indigo-500 to-indigo-600" }
+      ]
+    },
+    {
+      "category": "Organizational Development",
+      "skills": [
+        { "name": "Multinational Organization Building", "level": 98, "color": "from-pink-500 to-pink-600" },
+        { "name": "Corporate Affairs", "level": 95, "color": "from-cyan-500 to-cyan-600" },
+        { "name": "Supply Chain Management", "level": 90, "color": "from-emerald-500 to-emerald-600" }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "metric": "23+",
+      "label": "Years at Servier",
+      "description": "Progressive career growth from Personnel Executive to Country Manager"
+    },
+    {
+      "metric": "2023",
+      "label": "Country Manager Since",
+      "description": "Leading Servier Bangladesh operations as Country Manager"
+    },
+    {
+      "metric": "MBA",
+      "label": "Business Administration",
+      "description": "Master's degree in Human Resources & General Management"
+    },
+    {
+      "metric": "100%",
+      "label": "Organization Development",
+      "description": "Successfully built multinational organization from launch"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Business Administration (MBA)",
+      "institution": "University of Dhaka",
+      "specialization": "Human Resources Management & General Management",
+      "year": "2000-2002"
+    },
+    {
+      "degree": "Bachelor of Business Administration (BBA)",
+      "institution": "University of Dhaka",
+      "specialization": "Business, Management, Marketing, and Related Support Services",
+      "year": "1995-2000"
+    },
+    {
+      "degree": "Bachelor of Laws (LL.B.)",
+      "institution": "Prime University",
+      "specialization": "Law",
+      "year": "Completed"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Comilla Zilla School",
+      "specialization": "General Education",
+      "year": "1987-1992"
+    }
+  ],
+  "personalValues": [
+    {
+      "value": "Excellence & Quality",
+      "description": "Driven for excellence in all business operations and organizational development",
+      "icon": "⚡",
+      "color": "bg-blue-500"
+    },
+    {
+      "value": "Change Leadership",
+      "description": "Passionate about driving positive change and transformation in organizations",
+      "icon": "�",
+      "color": "bg-green-500"
+    },
+    {
+      "value": "Global & Local Expertise",
+      "description": "Unique mix of domestic and global exposure bringing comprehensive perspective",
+      "icon": "🌍",
+      "color": "bg-purple-500"
+    },
+    {
+      "value": "People Impact",
+      "description": "Committed to making positive impact in the lives of others through leadership",
+      "icon": "❤️",
+      "color": "bg-orange-500"
+    }
+  ]
+}

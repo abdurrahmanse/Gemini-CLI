@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Leadership Excellence",
+    "title": "CEO of the Year Award",
+    "year": "2023",
+    "organization": "Bangladesh Pharmaceutical Association",
+    "description": "Recognized for outstanding leadership in pharmaceutical operations and contribution to healthcare accessibility in Bangladesh.",
+    "icon": "🏆",
+    "gradient": "from-yellow-500 to-orange-600"
+  },
+  {
+    "category": "Innovation Impact",
+    "title": "Healthcare Innovation Award",
+    "year": "2022",
+    "organization": "South Asian Health Council",
+    "description": "Honored for pioneering digital health initiatives and implementing technology-driven solutions in pharmaceutical operations.",
+    "icon": "💡",
+    "gradient": "from-blue-500 to-purple-600"
+  },
+  {
+    "category": "Market Growth",
+    "title": "Market Expansion Excellence",
+    "year": "2021",
+    "organization": "Regional Business Council",
+    "description": "Achieved exceptional market penetration and operational expansion across multiple therapeutic segments.",
+    "icon": "📈",
+    "gradient": "from-green-500 to-teal-600"
+  },
+  {
+    "category": "Quality Standards",
+    "title": "GMP Excellence Certification",
+    "year": "2020",
+    "organization": "International Quality Council",
+    "description": "Established world-class quality management systems and achieved highest standards in pharmaceutical manufacturing.",
+    "icon": "⭐",
+    "gradient": "from-purple-500 to-pink-600"
+  },
+  {
+    "category": "Social Impact",
+    "title": "Community Health Champion",
+    "year": "2019",
+    "organization": "Healthcare Leaders Forum",
+    "description": "Led initiatives that improved healthcare access for underserved communities across Bangladesh.",
+    "icon": "❤️",
+    "gradient": "from-red-500 to-pink-600"
+  },
+  {
+    "category": "Industry Recognition",
+    "title": "Pharmaceutical Leader of the Year",
+    "year": "2018",
+    "organization": "Global Pharma Excellence Awards",
+    "description": "Recognized for transformative leadership and strategic vision in emerging pharmaceutical markets.",
+    "icon": "🌟",
+    "gradient": "from-indigo-500 to-blue-600"
+  }
+]

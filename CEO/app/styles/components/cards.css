@@ -1,0 +1,167 @@
+/* ===================================
+   CARD COMPONENTS
+   ===================================
+   Card styles for content display, profiles, and information blocks
+*/
+
+/* Base card component */
+.card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 32px 0 var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px 0 var(--shadow-color);
+}
+
+/* Profile card for team members */
+.profile-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 var(--shadow-color);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.profile-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px var(--shadow-color);
+}
+
+/* Achievement card */
+.achievement-card {
+  background: linear-gradient(135deg, var(--glass-bg), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(15px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.achievement-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+}
+
+.achievement-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px 0 var(--shadow-color);
+}
+
+/* Experience card for timeline */
+.experience-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 24px;
+  margin-left: 32px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 24px;
+  width: 12px;
+  height: 12px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  border: 3px solid var(--bg-primary);
+}
+
+.experience-card:hover {
+  transform: translateX(8px);
+  box-shadow: 0 12px 40px 0 var(--shadow-color);
+}
+
+/* Expertise card */
+.expertise-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.expertise-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px 0 var(--shadow-color);
+}
+
+.expertise-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expertise-card:hover::after {
+  opacity: 1;
+}
+
+/* Contact card */
+.contact-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 8px 32px 0 var(--shadow-color);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, transparent, var(--accent-primary), transparent);
+  animation: rotate 4s linear infinite;
+  opacity: 0.1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px 0 var(--shadow-color);
+}
