@@ -69,15 +69,9 @@ export function ContactSection() {
 
   return (
     <section ref={sectionRef} id="contact" className="py-32 px-6 sm:px-8 relative overflow-hidden">
-      {/* Enhanced Background Effects */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(59,130,246,0.15),transparent_50%)]"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_75%,rgba(168,85,247,0.15),transparent_50%)]"></div>
-      <div className="absolute inset-0 bg-[conic-gradient(from_180deg_at_50%_50%,rgba(14,165,233,0.1),transparent,rgba(34,197,94,0.1),transparent)]"></div>
-      
-      {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rounded-full blur-xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-br from-green-400/20 to-emerald-400/20 rounded-full blur-xl animate-pulse delay-1000"></div>
-      
+      {/* Modern glassy gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-emerald-900 to-slate-900 opacity-90"></div>
+      <div className="absolute inset-0 bg-white/10 backdrop-blur-2xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Enhanced Section Header */}
         <div className={`text-center mb-24 transition-all duration-1200 ${
@@ -118,10 +112,9 @@ export function ContactSection() {
             isVisible ? "opacity-100 translate-x-0 scale-100" : "opacity-0 -translate-x-12 scale-95"
           }`}>
             <div className="relative group h-full">
-              {/* Glow Effect */}
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 via-green-500 to-emerald-500 rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
-              
-              <div className="relative backdrop-blur-3xl bg-gradient-to-br from-white/20 to-white/5 rounded-3xl border border-white/30 p-8 shadow-2xl h-full">
+              {/* Glassmorphism card with soft gradient and frosted effect */}
+              <div className="absolute -inset-0.5 rounded-3xl bg-gradient-to-br from-blue-500/20 via-emerald-400/20 to-white/10 blur-xl opacity-40 group-hover:opacity-60 transition duration-500"></div>
+              <div className="relative backdrop-blur-2xl bg-white/10 rounded-3xl border border-white/20 p-8 shadow-2xl h-full">
                 
                 {/* Executive Introduction */}
                 <div className="mb-10">
@@ -230,10 +223,9 @@ export function ContactSection() {
             isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
           }`}>
             <div className="relative group h-full">
-              {/* Glow Effect */}
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 via-emerald-500 to-blue-500 rounded-3xl blur opacity-20 group-hover:opacity-30 transition duration-500"></div>
-              
-              <div className="relative backdrop-blur-3xl bg-gradient-to-br from-white/15 to-white/5 rounded-3xl border border-white/30 p-8 shadow-2xl h-full">
+              {/* Glassmorphism card with soft gradient and frosted effect */}
+              <div className="absolute -inset-0.5 rounded-3xl bg-gradient-to-br from-emerald-400/20 via-blue-500/20 to-white/10 blur-xl opacity-40 group-hover:opacity-60 transition duration-500"></div>
+              <div className="relative backdrop-blur-2xl bg-white/10 rounded-3xl border border-white/20 p-8 shadow-2xl h-full">
                 
                 {submitted ? (
                   /* Success State */

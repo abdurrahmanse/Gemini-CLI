@@ -1,45 +1,45 @@
 {
   "header": {
-    "title": "Let's Connect",
-    "subtitle": "Ready to advance healthcare innovation together? Let's discuss strategic partnerships, market development opportunities, or how we can improve patient outcomes in your region.",
-    "callToAction": "I'm always interested in connecting with healthcare leaders, pharmaceutical innovators, and stakeholders committed to transforming patient care."
+    "title": "Professional Network",
+    "subtitle": "Connect with an experienced executive passionate about organizational excellence and positive impact. Let's discuss business development, strategic partnerships, or leadership opportunities.",
+    "callToAction": "With 23+ years of experience in developing multinational organizations, I'm always open to connecting with business leaders and professionals."
   },
   "contactMethods": [
     {
       "id": "email",
       "title": "Professional Email",
-      "detail": "dr.bhuiyan@servier.com",
-      "description": "Preferred for strategic discussions and partnerships",
+      "detail": "tofazzal.bhuiyan@servier.com",
+      "description": "Preferred for business discussions and opportunities",
       "icon": "📧",
       "color": "from-blue-500 to-blue-600",
       "availability": "Response within 24 hours during business days"
     },
     {
       "id": "phone",
-      "title": "Direct Line",
-      "detail": "+880-1-234-567890",
-      "description": "Available for urgent healthcare matters",
+      "title": "Business Line",
+      "detail": "+880-2-123-456789",
+      "description": "Available for business communications",
       "icon": "📞",
       "color": "from-green-500 to-green-600",
       "availability": "Sunday-Thursday, 9 AM - 6 PM (GMT+6)"
     },
     {
       "id": "location",
-      "title": "Regional Office",
+      "title": "Servier Bangladesh",
       "detail": "Dhaka, Bangladesh",
-      "description": "Servier Operations Bangladesh Headquarters",
+      "description": "Country Manager Office",
       "icon": "📍",
       "color": "from-purple-500 to-purple-600",
-      "availability": "In-person meetings by appointment"
+      "availability": "Business meetings by appointment"
     },
     {
       "id": "calendar",
-      "title": "Executive Calendar",
-      "detail": "Schedule Consultation",
-      "description": "Book strategic consultation sessions",
+      "title": "Executive Schedule",
+      "detail": "Schedule Meeting",
+      "description": "Book professional consultation",
       "icon": "📅",
       "color": "from-orange-500 to-red-500",
-      "availability": "30-60 minute sessions available"
+      "availability": "30-60 minute business discussions available"
     }
   ],
   "socialLinks": [
@@ -75,36 +75,36 @@
   "formFields": {
     "subjects": [
       {
-        "value": "strategic-partnership",
-        "label": "Strategic Partnership Opportunity"
+        "value": "business-consultation",
+        "label": "Business Consultation"
       },
       {
-        "value": "market-development",
-        "label": "Market Development Discussion"
+        "value": "partnership-opportunity",
+        "label": "Partnership Opportunity"
       },
       {
-        "value": "pharmaceutical-innovation",
-        "label": "Pharmaceutical Innovation"
+        "value": "organizational-development",
+        "label": "Organizational Development"
       },
       {
-        "value": "healthcare-access",
-        "label": "Healthcare Access Initiative"
+        "value": "operations-management",
+        "label": "Operations Management"
       },
       {
         "value": "speaking-engagement",
         "label": "Speaking Engagement"
       },
       {
-        "value": "regulatory-affairs",
-        "label": "Regulatory Affairs"
+        "value": "hr-consulting",
+        "label": "HR Consulting"
       },
       {
-        "value": "research-collaboration",
-        "label": "Research Collaboration"
+        "value": "business-collaboration",
+        "label": "Business Collaboration"
       },
       {
         "value": "other",
-        "label": "Other Healthcare Matter"
+        "label": "Other Business Matter"
       }
     ],
     "placeholders": {
@@ -113,34 +113,44 @@
       "email": "your.email@company.com",
       "company": "Your Organization",
       "phone": "+880-1-xxx-xxxxx",
-      "message": "Please describe your healthcare initiative, partnership opportunity, or how we can collaborate to improve patient outcomes..."
+      "message": "Please describe your business opportunity, partnership proposal, or how we can collaborate for mutual growth..."
     }
   },
   "responseInfo": {
     "standardResponse": "I typically respond within 24 hours during business days (Sunday-Thursday, GMT+6).",
-    "urgentMatters": "For urgent healthcare matters, please call directly or mark your email as 'URGENT - Healthcare Matter'.",
-    "partnerships": "Partnership inquiries will be reviewed by our strategic development team and responded to within 48 hours."
+    "urgentMatters": "For urgent business matters, please call directly or mark your email as 'URGENT - Business Matter'.",
+    "partnerships": "Partnership and collaboration inquiries will be reviewed by our team and responded to within 48 hours."
   },
   "expertise": [
     {
-      "area": "Market Development",
-      "description": "Expanding pharmaceutical access across South Asian markets",
-      "icon": "📈"
+      "area": "Business Planning",
+      "description": "Strategic business planning and organizational development",
+      "icon": "�"
     },
     {
-      "area": "Regulatory Strategy",
-      "description": "Navigating healthcare regulations for optimal patient outcomes",
+      "area": "Operations Leadership",
+      "description": "Leading operations and team management across functions",
+      "icon": "⚙️"
+    },
+    {
+      "area": "HR Management",
+      "description": "Human resources management and organizational development",
+      "icon": "👥"
+    },
+    {
+      "area": "Financial Planning",
+      "description": "Financial planning and decision making for sustainable growth",
+      "icon": "💰"
+    },
+    {
+      "area": "Legal Operations",
+      "description": "Legal contract operations and corporate affairs",
       "icon": "⚖️"
     },
     {
-      "area": "Innovation Leadership",
-      "description": "Driving pharmaceutical innovation in emerging markets",
-      "icon": "💡"
-    },
-    {
-      "area": "Strategic Partnerships",
-      "description": "Building collaborations to advance healthcare access",
-      "icon": "🤝"
+      "area": "Multinational Development",
+      "description": "Building and developing multinational organization presence",
+      "icon": "🌐"
     }
   ]
 }

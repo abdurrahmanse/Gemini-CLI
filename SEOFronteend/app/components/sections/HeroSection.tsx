@@ -2,6 +2,7 @@ import { useIntersectionObserver, useTypewriter, useCycle } from '~/hooks';
 import { scrollToSection } from '~/utils';
 import { HERO_TAGLINES, PERSONAL_INFO, GRADIENTS } from '~/constants';
 import { Button, SectionWrapper } from '~/components/ui';
+import TofazzalImage from '~/assets/TofazzalHossainBhuiyan.jpg';
 import type { MetricData } from '~/types';
 
 const HERO_METRICS: MetricData[] = [
@@ -62,13 +63,7 @@ export function HeroSection() {
       </div>
 
       {/* Floating Elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-20 w-2 h-2 rounded-full animate-float" style={{ backgroundColor: 'var(--accent-secondary)', opacity: 0.6 }}></div>
-        <div className="absolute top-40 right-32 w-1 h-1 rounded-full animate-float delay-1000" style={{ backgroundColor: 'var(--accent-primary)', opacity: 0.6 }}></div>
-        <div className="absolute bottom-32 left-16 w-3 h-3 rounded-full animate-float delay-2000" style={{ backgroundColor: 'var(--accent-secondary)', opacity: 0.4 }}></div>
-        <div className="absolute top-1/3 right-20 w-1.5 h-1.5 rounded-full animate-float delay-3000" style={{ backgroundColor: 'var(--accent-primary)', opacity: 0.5 }}></div>
-        <div className="absolute bottom-20 right-40 w-2 h-2 rounded-full animate-float delay-4000" style={{ backgroundColor: 'var(--accent-secondary)', opacity: 0.4 }}></div>
-      </div>
+  {/* Removed all circular floating background elements for a cleaner look */}
 
       <div ref={ref as React.RefObject<HTMLDivElement>} className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8">{/* Text content */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -181,18 +176,20 @@ export function HeroSection() {
             
             {/* Professional Photo Placeholder */}
             <div className="relative mb-8">
-              <div className="w-80 h-80 mx-auto rounded-3xl bg-gradient-to-br from-white/[0.15] to-white/[0.05] backdrop-blur-2xl border border-white/[0.2] shadow-3xl flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl mx-auto mb-4 flex items-center justify-center text-4xl font-bold text-white shadow-2xl">
-                    {PERSONAL_INFO.firstName.charAt(0)}{PERSONAL_INFO.lastName.charAt(0)}
-                  </div>
-                  <p className="text-white/80 font-medium">Professional Portrait</p>
+              <div className="w-[28rem] h-[28rem] mx-auto flex items-center justify-center">
+                <div className="relative w-80 h-80 rounded-full bg-gradient-to-br from-white/20 to-white/5 border-4 border-transparent shadow-3xl flex items-center justify-center backdrop-blur-2xl" style={{ boxShadow: '0 12px 48px rgba(0,0,0,0.18)' }}>
+                  {/* About section image design, but with CEO image */}
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600"></div>
+                  <div className="absolute inset-0 rounded-3xl bg-white/20 backdrop-blur-3xl"></div>
+                  <img
+                    src={TofazzalImage}
+                    alt={PERSONAL_INFO.fullName}
+                    className="w-full h-full object-cover object-top rounded-3xl shadow-2xl relative z-10"
+                  />
                 </div>
               </div>
-              <div className="absolute -top-4 -right-4 w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
+              <div className="text-center mt-6">
+                {/* Removed 'Professional Portrait' text for cleaner look */}
               </div>
             </div>
 

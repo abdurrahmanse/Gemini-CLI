@@ -4,11 +4,26 @@
    Ultra-professional about section with advanced animations and effects
 */
 
+/* Full Width Section Styles */
+#about {
+  width: 100vw;
+  position: relative;
+  margin-left: calc(-50vw + 50%);
+  min-height: 100vh;
+}
+
+#about > div {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
 /* About Section Container */
 .about-section {
   position: relative;
   overflow: hidden;
   font-family: "Rajdhani", sans-serif;
+  width: 100vw;
   background: linear-gradient(135deg, 
     rgba(15, 23, 42, 0.95) 0%, 
     rgba(30, 41, 59, 0.95) 50%, 

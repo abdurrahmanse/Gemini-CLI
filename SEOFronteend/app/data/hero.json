@@ -1,40 +1,40 @@
 {
-  "name": "Dr. Tofazzal Hossain Bhuiyan",
-  "title": "Chief Executive Officer",
-  "subtitle": "Healthcare Visionary & Pharmaceutical Leader",
-  "company": "Servier Operations Bangladesh",
-  "tagline": "Transforming Healthcare Through Strategic Leadership & Innovation",
-  "description": "Leading pharmaceutical excellence across Bangladesh with 20+ years of executive experience. Driving market expansion, healthcare accessibility, and operational innovation while maintaining the highest standards of quality and regulatory compliance.",
+  "name": "Tofazzal Hossain Bhuiyan",
+  "title": "Country Manager",
+  "subtitle": "Experienced Executive & Business Leader",
+  "company": "Servier Bangladesh",
+  "tagline": "Developing Multinational Organizations & Driving Excellence",
+  "description": "An experienced executive with 23+ years at Servier, demonstrating expertise in developing multinational organizations from launch. Skilled in comprehensive company management from business planning to operations, financial planning to decision making, HR management to legal contracts. A unique mix of domestic and global exposure with passion for change and excellence.",
   "cta": {
-    "primary": "View Leadership Journey",
-    "secondary": "Download Executive Summary"
+    "primary": "Explore Professional Journey",
+    "secondary": "View Executive Profile"
   },
   "stats": [
     {
-      "value": "300%",
-      "label": "Market Growth Under Leadership",
-      "icon": "📈"
+      "value": "23+",
+      "label": "Years at Servier",
+      "icon": "⏱️"
     },
     {
-      "value": "25+",
-      "label": "Pharmaceutical Products Launched",
-      "icon": "💊"
-    },
-    {
-      "value": "500+",
-      "label": "Team Members Led",
-      "icon": "👥"
-    },
-    {
-      "value": "15+",
-      "label": "Years as CEO",
+      "value": "2023",
+      "label": "Country Manager Since",
       "icon": "🏆"
+    },
+    {
+      "value": "MBA",
+      "label": "Business Administration",
+      "icon": "🎓"
+    },
+    {
+      "value": "100%",
+      "label": "Commitment to Excellence",
+      "icon": "💡"
     }
   ],
   "highlights": [
-    "CEO of the Year Award 2023",
-    "Leading market expansion across South Asia",
-    "Pioneer in digital health transformation",
-    "Champion of healthcare accessibility"
+    "Country Manager at Servier Bangladesh",
+    "23+ years of progressive leadership",
+    "Expert in multinational organization development",
+    "MBA in Human Resources & General Management"
   ]
 }

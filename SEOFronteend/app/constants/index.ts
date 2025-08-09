@@ -7,12 +7,10 @@ import expertiseData from '~/data/expertise.json';
 import experienceData from '~/data/experience.json';
 import achievementsData from '~/data/achievements.json';
 import visionData from '~/data/vision.json';
-import heroData from '~/data/hero.json';
+
 
 import type { PersonalInfo, SocialLinks, NavigationItem } from '~/types';
 
-// Hero Section Data
-export const HERO_DATA = heroData;
 
 // Personal Information
 export const PERSONAL_INFO: PersonalInfo = personalInfoData;

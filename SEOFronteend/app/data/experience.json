@@ -1,97 +1,116 @@
 [
   {
-    "company": "Servier Operations Bangladesh",
-    "position": "Chief Executive Officer",
-    "period": "2018 - Present",
+    "company": "Servier",
+    "position": "Country Manager",
+    "period": "January 2023 - Present",
     "logo": "🏢",
-    "description": "Leading pharmaceutical operations across Bangladesh, driving strategic growth and operational excellence. Overseeing drug development, regulatory affairs, and market expansion initiatives.",
+    "description": "Leading overall operations and strategic direction of Servier Bangladesh as Country Manager, overseeing all business functions and organizational development initiatives.",
     "achievements": [
-      "300% growth in market penetration",
-      "Launched 25+ innovative pharmaceutical products",
-      "Built regulatory compliance framework"
+      "Strategic leadership and business planning",
+      "Enhanced operational efficiency and team performance",
+      "Strengthened market position and business relationships"
     ],
     "technologies": [
-      "Pharmaceutical Strategy",
-      "Regulatory Affairs",
-      "Market Development",
+      "Strategic Leadership",
+      "Business Planning",
+      "Operations Management",
       "Team Leadership"
     ],
     "gradient": "from-blue-500 to-purple-600"
   },
   {
-    "company": "Global Pharma Solutions",
-    "position": "Regional Director",
-    "period": "2014 - 2018",
-    "logo": "🌍",
-    "description": "Managed regional pharmaceutical operations across South Asia. Led cross-functional teams in drug development, clinical trials, and market access strategies.",
+    "company": "Servier",
+    "position": "Head Of Operations",
+    "period": "September 2019 - January 2023",
+    "logo": "⚙️",
+    "description": "Led the Bangladesh Team of Servier, overseeing comprehensive operations management and team leadership across all functions.",
     "achievements": [
-      "Established operations in 8 new markets",
-      "Led clinical trials for 15+ compounds",
-      "Achieved 95% regulatory approval rate"
+      "Successfully led comprehensive operations transformation",
+      "Enhanced team performance and organizational efficiency",
+      "Implemented strategic initiatives for operational excellence"
     ],
     "technologies": [
-      "Clinical Operations",
-      "Market Access",
-      "Cross-functional Leadership",
-      "Strategic Planning"
+      "Operations Leadership",
+      "Team Management",
+      "Process Optimization",
+      "Strategic Oversight"
     ],
     "gradient": "from-emerald-500 to-teal-600"
   },
   {
-    "company": "MedTech Innovations",
-    "position": "Senior Vice President",
-    "period": "2010 - 2014",
-    "logo": "💊",
-    "description": "Spearheaded innovation initiatives in pharmaceutical technology and digital health solutions. Built strategic partnerships with global healthcare organizations.",
+    "company": "Servier",
+    "position": "Corporate Affairs Manager",
+    "period": "October 2018 - September 2019",
+    "logo": "�",
+    "description": "Led HR, Finance, Supply Chain and IS functions of Servier in Bangladesh, managing corporate affairs and cross-functional coordination.",
     "achievements": [
-      "Launched 3 breakthrough digital health platforms",
-      "Secured partnerships with 50+ healthcare providers",
-      "Generated $100M+ in new revenue streams"
+      "Successfully integrated multiple business functions",
+      "Enhanced cross-functional collaboration and efficiency",
+      "Implemented corporate governance best practices"
     ],
     "technologies": [
-      "Digital Health",
-      "Innovation Management",
-      "Partnership Development",
-      "Technology Integration"
+      "Corporate Affairs",
+      "Cross-functional Leadership",
+      "HR Management",
+      "Finance & Supply Chain"
     ],
     "gradient": "from-orange-500 to-red-600"
   },
   {
-    "company": "Healthcare Dynamics",
-    "position": "Director of Operations",
-    "period": "2006 - 2010",
-    "logo": "⚕️",
-    "description": "Optimized healthcare delivery systems and pharmaceutical supply chains. Implemented quality management systems and drove operational efficiency improvements.",
+    "company": "Servier",
+    "position": "HR and Administration Manager",
+    "period": "April 2015 - September 2018",
+    "logo": "👥",
+    "description": "Managed human resources and administration functions, focusing on organizational development and administrative excellence.",
     "achievements": [
-      "Improved supply chain efficiency by 60%",
-      "Reduced medication errors by 85%",
-      "Implemented GMP standards across facilities"
+      "Developed comprehensive HR policies and procedures",
+      "Enhanced employee engagement and organizational culture",
+      "Implemented performance management systems"
     ],
     "technologies": [
-      "Supply Chain Management",
-      "Quality Systems",
-      "GMP Compliance",
-      "Process Optimization"
+      "Human Resources",
+      "Administration",
+      "Performance Management",
+      "Organizational Development"
     ],
     "gradient": "from-green-500 to-emerald-600"
   },
   {
-    "company": "BioPharma Research Institute",
-    "position": "Research Manager",
-    "period": "2002 - 2006",
-    "logo": "🔬",
-    "description": "Led pharmaceutical research projects focusing on drug development and clinical trials. Managed multidisciplinary research teams and regulatory submissions.",
+    "company": "Servier",
+    "position": "Personnel & Administration Manager",
+    "period": "January 2005 - March 2015",
+    "logo": "�",
+    "description": "Managed personnel and administrative functions during critical growth phase, establishing foundational systems and processes for organizational development.",
     "achievements": [
-      "Led 20+ successful clinical trials",
-      "Published 15+ peer-reviewed research papers",
-      "Secured $50M+ in research funding"
+      "Established foundational HR and administrative systems",
+      "Built strong personnel management framework",
+      "Supported significant organizational growth and development"
     ],
     "technologies": [
-      "Clinical Research",
-      "Drug Development",
-      "Regulatory Submissions",
-      "Research Management"
+      "Personnel Management",
+      "Administrative Systems",
+      "Process Development",
+      "Organizational Growth"
     ],
     "gradient": "from-purple-500 to-indigo-600"
+  },
+  {
+    "company": "Servier",
+    "position": "Personnel Executive",
+    "period": "April 2002 - December 2004",
+    "logo": "🏃",
+    "description": "Started professional journey at Servier as Personnel Executive, beginning the development of multinational organization from its early stages in Bangladesh.",
+    "achievements": [
+      "Successfully contributed to early organizational development",
+      "Established effective personnel administration processes",
+      "Demonstrated commitment and growth potential"
+    ],
+    "technologies": [
+      "Personnel Administration",
+      "Employee Relations",
+      "Recruitment",
+      "Administrative Support"
+    ],
+    "gradient": "from-blue-500 to-cyan-600"
   }
 ]

@@ -35,40 +35,39 @@
    - CSS custom properties make theming easy
 */
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* ===================================
    BASE FOUNDATION STYLES
    =================================== */
-@import "./base/themes.css";
-@import "./base/typography.css";
-@import "./base/global.css";
+@import './base/themes.css';
+@import './base/typography.css';
+@import './base/global.css';
 
 /* ===================================
    VISUAL EFFECTS & PATTERNS
    =================================== */
-@import "./effects/glass-morphism.css";
-@import "./effects/animations.css";
-@import "./effects/backgrounds.css";
+@import './effects/glass-morphism.css';
+@import './effects/animations.css';
+@import './effects/backgrounds.css';
 
 /* ===================================
    REUSABLE UI COMPONENTS
    =================================== */
-@import "./components/buttons.css";
-@import "./components/cards.css";
-@import "./components/forms.css";
-@import "./components/navigation.css";
-@import "./components/footer.css";
+@import './components/buttons.css';
+@import './components/cards.css';
+@import './components/forms.css';
+@import './components/navigation.css';
+@import './components/footer.css';
 
 /* ===================================
    SECTION-SPECIFIC STYLES
    =================================== */
-@import "./sections/hero.css";
-@import "./sections/about.css";
-@import "./sections/experience.css";
-@import "./sections/expertise.css";
-@import "./sections/achievements.css";
-@import "./sections/contact.css";
+@import './sections/about.css';
+@import './sections/experience.css';
+@import './sections/expertise.css';
+@import './sections/achievements.css';
+@import './sections/contact.css';
 
 /* ===================================
    UTILITY CLASSES
@@ -104,11 +103,11 @@
   .section-padding {
     padding: 80px 0;
   }
-  
+
   .section-padding-sm {
     padding: 60px 0;
   }
-  
+
   .container-custom {
     padding: 0 16px;
   }

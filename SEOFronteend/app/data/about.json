@@ -1,64 +1,64 @@
 {
   "profile": {
-    "image": "/images/dr-bhuiyan-profile.jpg",
-    "yearsOfExperience": 20,
-    "currentRole": "Chief Executive Officer",
-    "industry": "Pharmaceutical & Healthcare",
-    "specialization": "Healthcare Innovation & Market Development"
+    "image": "/images/tofazzal-profile.jpg",
+    "yearsOfExperience": 23,
+    "currentRole": "Country Manager",
+    "industry": "Pharmaceutical",
+    "specialization": "Multinational Organization Development"
   },
   "introduction": {
-    "headline": "Transforming Healthcare Through Visionary Leadership",
-    "summary": "Dr. Tofazzal Hossain Bhuiyan is a distinguished pharmaceutical executive with over two decades of transformational leadership in advancing healthcare access and pharmaceutical innovation across South Asia. As CEO of Servier Operations Bangladesh, he has pioneered strategic initiatives that have revolutionized patient care and market development in the region.",
-    "mission": "Dedicated to improving patient outcomes through strategic market development, evidence-based medicine, and sustainable healthcare solutions that bridge the gap between innovation and accessibility."
+    "headline": "Developing Multinational Organizations Through Excellence",
+    "summary": "Tofazzal Hossain Bhuiyan is an experienced executive with a demonstrated history of developing a multinational organization from its launch in Bangladesh. With 23+ years at Servier, he brings expertise in comprehensive company management backed by an MBA, combining domestic and global exposure with passion for change and excellence.",
+    "mission": "With a vision of tomorrow, thriving to become a good leader and to make positive impact in the lives of others."
   },
   "keyHighlights": [
     {
-      "title": "Healthcare Innovation Pioneer",
-      "description": "Leading breakthrough initiatives in pharmaceutical market development and patient-centered care across Bangladesh and South Asia",
-      "icon": "🏥",
+      "title": "Multinational Organization Developer",
+      "description": "Successfully developed Servier's multinational operations in Bangladesh from launch to established market presence",
+      "icon": "�",
       "color": "from-blue-500 to-cyan-500"
     },
     {
-      "title": "Strategic Market Developer",
-      "description": "Successfully expanded pharmaceutical operations and healthcare access, directly impacting millions of patients",
-      "icon": "📈",
+      "title": "Comprehensive Management Expert",
+      "description": "Skilled in business planning, operations, financial planning, decision making, HR management, and legal contracts",
+      "icon": "�",
       "color": "from-green-500 to-emerald-500"
     },
     {
-      "title": "Evidence-Based Medicine Advocate",
-      "description": "Champion of research-driven pharmaceutical practices and clinical excellence in emerging markets",
-      "icon": "🔬",
+      "title": "Progressive Leadership",
+      "description": "23+ years of progressive growth from Personnel Executive to Country Manager at Servier",
+      "icon": "�",
       "color": "from-purple-500 to-indigo-500"
     },
     {
-      "title": "Regional Healthcare Leader",
-      "description": "Recognized authority in South Asian pharmaceutical markets with extensive regional network and expertise",
-      "icon": "🌏",
+      "title": "Academic Excellence",
+      "description": "Strong academic foundation with MBA in Human Resources & General Management from University of Dhaka",
+      "icon": "�",
       "color": "from-orange-500 to-red-500"
     }
   ],
   "leadershipPhilosophy": {
-    "quote": "True healthcare leadership means creating sustainable systems that not only deliver exceptional patient outcomes today, but also build the foundation for healthier communities tomorrow.",
+    "quote": "A unique mix of domestic and global exposure and expertise, passionate about change and driven for excellence, with a vision of tomorrow to make positive impact in the lives of others.",
     "principles": [
       {
-        "title": "Patient-First Approach",
-        "description": "Every decision is evaluated through the lens of patient impact and improved health outcomes",
-        "icon": "❤️"
+        "title": "Excellence-Driven Approach",
+        "description": "Committed to excellence in every aspect of business operations and team leadership",
+        "icon": "⭐"
       },
       {
-        "title": "Innovation with Purpose",
-        "description": "Driving pharmaceutical innovation that addresses real-world healthcare challenges in emerging markets",
-        "icon": "💡"
+        "title": "Change Leadership",
+        "description": "Passionate about driving positive change and organizational transformation",
+        "icon": "�"
       },
       {
-        "title": "Sustainable Development",
-        "description": "Building healthcare infrastructure and market systems that create long-term value for all stakeholders",
-        "icon": "🌱"
+        "title": "People Impact",
+        "description": "Focused on making positive impact in the lives of others through leadership",
+        "icon": "👥"
       },
       {
-        "title": "Collaborative Excellence",
-        "description": "Fostering partnerships across healthcare ecosystem to amplify positive impact on patient care",
-        "icon": "🤝"
+        "title": "Vision-Forward Thinking",
+        "description": "Leading with tomorrow's vision while executing today's opportunities",
+        "icon": "🔮"
       }
     ]
   },
@@ -66,93 +66,99 @@
     {
       "category": "Executive Leadership",
       "skills": [
-        { "name": "Strategic Vision & Planning", "level": 98, "color": "from-blue-500 to-blue-600" },
-        { "name": "Organizational Transformation", "level": 95, "color": "from-purple-500 to-purple-600" },
-        { "name": "Cross-Cultural Leadership", "level": 92, "color": "from-green-500 to-green-600" }
+        { "name": "Business Planning", "level": 98, "color": "from-blue-500 to-blue-600" },
+        { "name": "Operations Leadership", "level": 96, "color": "from-purple-500 to-purple-600" },
+        { "name": "Decision Making", "level": 95, "color": "from-green-500 to-green-600" }
       ]
     },
     {
-      "category": "Healthcare Expertise",
+      "category": "Management Expertise",
       "skills": [
-        { "name": "Pharmaceutical Operations", "level": 97, "color": "from-red-500 to-red-600" },
-        { "name": "Market Access & Development", "level": 94, "color": "from-yellow-500 to-yellow-600" },
-        { "name": "Regulatory Affairs", "level": 89, "color": "from-indigo-500 to-indigo-600" }
+        { "name": "Human Resources Management", "level": 97, "color": "from-red-500 to-red-600" },
+        { "name": "Financial Planning", "level": 94, "color": "from-yellow-500 to-yellow-600" },
+        { "name": "Legal Contract Operations", "level": 92, "color": "from-indigo-500 to-indigo-600" }
       ]
     },
     {
-      "category": "Business Acumen",
+      "category": "Organizational Development",
       "skills": [
-        { "name": "Financial Management", "level": 91, "color": "from-pink-500 to-pink-600" },
-        { "name": "Market Strategy", "level": 96, "color": "from-cyan-500 to-cyan-600" },
-        { "name": "Stakeholder Relations", "level": 93, "color": "from-emerald-500 to-emerald-600" }
+        { "name": "Multinational Organization Building", "level": 98, "color": "from-pink-500 to-pink-600" },
+        { "name": "Corporate Affairs", "level": 95, "color": "from-cyan-500 to-cyan-600" },
+        { "name": "Supply Chain Management", "level": 90, "color": "from-emerald-500 to-emerald-600" }
       ]
     }
   ],
   "achievements": [
     {
-      "metric": "20+",
-      "label": "Years Leadership Experience",
-      "description": "Two decades of pharmaceutical executive experience"
+      "metric": "23+",
+      "label": "Years at Servier",
+      "description": "Progressive career growth from Personnel Executive to Country Manager"
     },
     {
-      "metric": "5M+",
-      "label": "Patients Served",
-      "description": "Direct impact on patient care through market initiatives"
+      "metric": "2023",
+      "label": "Country Manager Since",
+      "description": "Leading Servier Bangladesh operations as Country Manager"
     },
     {
-      "metric": "50+",
-      "label": "Healthcare Partnerships",
-      "description": "Strategic collaborations across South Asian markets"
+      "metric": "MBA",
+      "label": "Business Administration",
+      "description": "Master's degree in Human Resources & General Management"
     },
     {
-      "metric": "15+",
-      "label": "Market Launches",
-      "description": "Successful pharmaceutical product introductions"
+      "metric": "100%",
+      "label": "Organization Development",
+      "description": "Successfully built multinational organization from launch"
     }
   ],
   "education": [
     {
-      "degree": "Doctor of Medicine (MD)",
-      "institution": "Leading Medical University",
-      "specialization": "Healthcare Management",
-      "year": "2004"
+      "degree": "Master of Business Administration (MBA)",
+      "institution": "University of Dhaka",
+      "specialization": "Human Resources Management & General Management",
+      "year": "2000-2002"
     },
     {
-      "degree": "Master of Business Administration",
-      "institution": "International Business School",
-      "specialization": "Healthcare Strategy",
-      "year": "2008"
+      "degree": "Bachelor of Business Administration (BBA)",
+      "institution": "University of Dhaka",
+      "specialization": "Business, Management, Marketing, and Related Support Services",
+      "year": "1995-2000"
     },
     {
-      "degree": "Executive Certificate",
-      "institution": "Harvard Business School",
-      "specialization": "Global Healthcare Leadership",
-      "year": "2015"
+      "degree": "Bachelor of Laws (LL.B.)",
+      "institution": "Prime University",
+      "specialization": "Law",
+      "year": "Completed"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Comilla Zilla School",
+      "specialization": "General Education",
+      "year": "1987-1992"
     }
   ],
   "personalValues": [
     {
-      "value": "Integrity in Healthcare",
-      "description": "Maintaining the highest ethical standards in all pharmaceutical and healthcare initiatives",
-      "icon": "⚖️",
+      "value": "Excellence & Quality",
+      "description": "Driven for excellence in all business operations and organizational development",
+      "icon": "⚡",
       "color": "bg-blue-500"
     },
     {
-      "value": "Patient-Centered Innovation",
-      "description": "Ensuring all innovations directly translate to improved patient outcomes and quality of life",
-      "icon": "🎯",
+      "value": "Change Leadership",
+      "description": "Passionate about driving positive change and transformation in organizations",
+      "icon": "�",
       "color": "bg-green-500"
     },
     {
-      "value": "Collaborative Leadership",
-      "description": "Building bridges across healthcare stakeholders to create sustainable, impactful solutions",
-      "icon": "🤝",
+      "value": "Global & Local Expertise",
+      "description": "Unique mix of domestic and global exposure bringing comprehensive perspective",
+      "icon": "🌍",
       "color": "bg-purple-500"
     },
     {
-      "value": "Continuous Learning",
-      "description": "Staying at the forefront of healthcare innovation and pharmaceutical best practices",
-      "icon": "📚",
+      "value": "People Impact",
+      "description": "Committed to making positive impact in the lives of others through leadership",
+      "icon": "❤️",
       "color": "bg-orange-500"
     }
   ]
